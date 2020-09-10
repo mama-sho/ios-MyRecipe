@@ -126,15 +126,17 @@ class DetailViewController: UIViewController,UITableViewDelegate,UITableViewData
     }
     
     //google custom SearchAPI
-    
-    
     func imageGetMethod(searchName:String) {
         
-        let APIkey = "AIzaSyDvP-b6BveNKOsR04L1oSf1pZ52Kv02t6M"
-        let enginID = "050dc933874ea747c"
+        //plistからAPIKeyを取得し、gitignoreで公開しないように修正
+        let filePath = Bundle.main.path(forResource: "APIKey", ofType: "plist")
+        let plist = NSDictionary(contentsOfFile: filePath!)
+        
+        let enginID = plist!["enginID"]
+        let APIKey = plist!["GoogleAPIKey"]
         let searchURLString = "https://www.googleapis.com/customsearch/v1"
         
-        let URL = "https://www.googleapis.com/customsearch/v1?key=AIzaSyDvP-b6BveNKOsR04L1oSf1pZ52Kv02t6M&cx=050dc933874ea747c&searchType=image&num=5&q=カクテル\(searchName)"
+        let URL = "\(searchURLString)?key=\(APIKey!)&cx=\(enginID!)&searchType=image&num=5&q=カクテル\(searchName)"
         
         //エンコードしないとダメだった...
         let encodedUrl = URL.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)

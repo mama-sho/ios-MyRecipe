@@ -13,6 +13,7 @@
 		F23BBE2E24E901D10086E409 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23BBE2D24E901D10086E409 /* NewViewController.swift */; };
 		F23BBE3024E902240086E409 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23BBE2F24E902240086E409 /* NextViewController.swift */; };
 		F24A4C2A24E7ADED00543BE8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A4C2924E7ADED00543BE8 /* MenuViewController.swift */; };
+		F25F54B8250A2B3400BFC022 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = F25F54B7250A2B3400BFC022 /* APIKey.plist */; };
 		F26C37EA24FF5D5500D82C94 /* MyContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C37E924FF5D5500D82C94 /* MyContents.swift */; };
 		F26C37EC24FF6EE400D82C94 /* MyContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C37EB24FF6EE400D82C94 /* MyContentsViewController.swift */; };
 		F26C37EF24FF83BE00D82C94 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C37ED24FF83BE00D82C94 /* CollectionViewCell.swift */; };
@@ -49,6 +50,7 @@
 		F23BBE2D24E901D10086E409 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		F23BBE2F24E902240086E409 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		F24A4C2924E7ADED00543BE8 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		F25F54B7250A2B3400BFC022 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
 		F26C37E924FF5D5500D82C94 /* MyContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContents.swift; sourceTree = "<group>"; };
 		F26C37EB24FF6EE400D82C94 /* MyContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContentsViewController.swift; sourceTree = "<group>"; };
 		F26C37ED24FF83BE00D82C94 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				F23A235724DE5D77005258EB /* Controller */,
 				F2D62E8F24DD3C46007C7613 /* LaunchScreen.storyboard */,
 				F2D62E9224DD3C46007C7613 /* Info.plist */,
+				F25F54B7250A2B3400BFC022 /* APIKey.plist */,
 				F2305C6324DEE0AC00A6CE31 /* GoogleService-Info.plist */,
 				F2F68FB7250607E800C04345 /* lottie.json */,
 				F2F68FB8250607E800C04345 /* lottie1.json */,
@@ -256,6 +259,7 @@
 				F2D62E8E24DD3C46007C7613 /* Assets.xcassets in Resources */,
 				F2D62E8C24DD3C45007C7613 /* Main.storyboard in Resources */,
 				F2AD9A0724FCB284001D630D /* DetailTableViewCell.xib in Resources */,
+				F25F54B8250A2B3400BFC022 /* APIKey.plist in Resources */,
 				F2305C6424DEE0AC00A6CE31 /* GoogleService-Info.plist in Resources */,
 				F26C37F024FF83BE00D82C94 /* CollectionViewCell.xib in Resources */,
 			);
