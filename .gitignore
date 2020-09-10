@@ -1,3 +1,2 @@
 #gitignoreに.plistを追加してAPIKeyを非公開にする
-*.plist
-*.json
+APIKey.plist
