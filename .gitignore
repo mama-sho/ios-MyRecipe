@@ -1,2 +1,7 @@
 #gitignoreに.plistを追加してAPIKeyを非公開にする
 APIKey.plist
+GoogleService--Info.plist
+Info.plist
+
+lottie.json
+lottie1.json
