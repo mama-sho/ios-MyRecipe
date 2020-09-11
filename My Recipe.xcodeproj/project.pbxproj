@@ -10,7 +10,6 @@
 		F0835F7F177D2DA524DB87C2 /* Pods_My_Recipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065859B76B2B66BC3F418104 /* Pods_My_Recipe.framework */; };
 		F201634824EBB58E0094155B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F201634724EBB58E0094155B /* SearchViewController.swift */; };
 		F211A3E1250A811C005BE7F3 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = F211A3E0250A811C005BE7F3 /* APIKey.plist */; };
-		F2305C6424DEE0AC00A6CE31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2305C6324DEE0AC00A6CE31 /* GoogleService-Info.plist */; };
 		F23A0417250A677C000C7F65 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F23A0416250A677C000C7F65 /* .gitignore */; };
 		F23BBE2E24E901D10086E409 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23BBE2D24E901D10086E409 /* NewViewController.swift */; };
 		F23BBE3024E902240086E409 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23BBE2F24E902240086E409 /* NextViewController.swift */; };
@@ -48,7 +47,6 @@
 		CE358E71EACE04357D840F8B /* Pods-My Recipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Recipe.debug.xcconfig"; path = "Target Support Files/Pods-My Recipe/Pods-My Recipe.debug.xcconfig"; sourceTree = "<group>"; };
 		F201634724EBB58E0094155B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		F211A3E0250A811C005BE7F3 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
-		F2305C6324DEE0AC00A6CE31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F23A0416250A677C000C7F65 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F23BBE2D24E901D10086E409 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		F23BBE2F24E902240086E409 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 		F2D62E8B24DD3C45007C7613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2D62E8D24DD3C46007C7613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2D62E9024DD3C46007C7613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F2D62E9224DD3C46007C7613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2E8F9342500CDFB00289A19 /* CocktailDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailViewController.swift; sourceTree = "<group>"; };
 		F2F68FB7250607E800C04345 /* lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie.json; sourceTree = "<group>"; };
 		F2F68FB8250607E800C04345 /* lottie1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie1.json; sourceTree = "<group>"; };
@@ -183,10 +180,8 @@
 				F23A235824DE5D8E005258EB /* View */,
 				F23A235724DE5D77005258EB /* Controller */,
 				F2D62E8F24DD3C46007C7613 /* LaunchScreen.storyboard */,
-				F2D62E9224DD3C46007C7613 /* Info.plist */,
 				F211A3E0250A811C005BE7F3 /* APIKey.plist */,
 				F23A0416250A677C000C7F65 /* .gitignore */,
-				F2305C6324DEE0AC00A6CE31 /* GoogleService-Info.plist */,
 				F2F68FB7250607E800C04345 /* lottie.json */,
 				F2F68FB8250607E800C04345 /* lottie1.json */,
 			);
@@ -263,7 +258,6 @@
 				F2D62E8E24DD3C46007C7613 /* Assets.xcassets in Resources */,
 				F2D62E8C24DD3C45007C7613 /* Main.storyboard in Resources */,
 				F2AD9A0724FCB284001D630D /* DetailTableViewCell.xib in Resources */,
-				F2305C6424DEE0AC00A6CE31 /* GoogleService-Info.plist in Resources */,
 				F23A0417250A677C000C7F65 /* .gitignore in Resources */,
 				F26C37F024FF83BE00D82C94 /* CollectionViewCell.xib in Resources */,
 			);
