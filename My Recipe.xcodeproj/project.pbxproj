@@ -10,7 +10,6 @@
 		F0835F7F177D2DA524DB87C2 /* Pods_My_Recipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065859B76B2B66BC3F418104 /* Pods_My_Recipe.framework */; };
 		F201634824EBB58E0094155B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F201634724EBB58E0094155B /* SearchViewController.swift */; };
 		F211A3E1250A811C005BE7F3 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = F211A3E0250A811C005BE7F3 /* APIKey.plist */; };
-		F23A0417250A677C000C7F65 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F23A0416250A677C000C7F65 /* .gitignore */; };
 		F23BBE2E24E901D10086E409 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23BBE2D24E901D10086E409 /* NewViewController.swift */; };
 		F23BBE3024E902240086E409 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23BBE2F24E902240086E409 /* NextViewController.swift */; };
 		F24A4C2A24E7ADED00543BE8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A4C2924E7ADED00543BE8 /* MenuViewController.swift */; };
@@ -22,6 +21,8 @@
 		F279D31B24E94BA6002AC791 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F279D31924E94BA6002AC791 /* CustomCell.xib */; };
 		F27EF3D224FFDB3E00151B24 /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EF3D124FFDB3E00151B24 /* Contents.swift */; };
 		F28D459524FBF7F900928B75 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D459424FBF7F900928B75 /* DetailViewController.swift */; };
+		F296EFAB250B4669005CACEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F296EFA9250B4669005CACEF /* GoogleService-Info.plist */; };
+		F296EFAC250B4669005CACEF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F296EFAA250B4669005CACEF /* Info.plist */; };
 		F2AD9A0624FCB284001D630D /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AD9A0424FCB284001D630D /* DetailTableViewCell.swift */; };
 		F2AD9A0724FCB284001D630D /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2AD9A0524FCB284001D630D /* DetailTableViewCell.xib */; };
 		F2C34ACB24FE7C0F00841A61 /* NextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C34AC924FE7C0F00841A61 /* NextTableViewCell.swift */; };
@@ -47,7 +48,6 @@
 		CE358E71EACE04357D840F8B /* Pods-My Recipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Recipe.debug.xcconfig"; path = "Target Support Files/Pods-My Recipe/Pods-My Recipe.debug.xcconfig"; sourceTree = "<group>"; };
 		F201634724EBB58E0094155B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		F211A3E0250A811C005BE7F3 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
-		F23A0416250A677C000C7F65 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F23BBE2D24E901D10086E409 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		F23BBE2F24E902240086E409 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		F24A4C2924E7ADED00543BE8 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +59,8 @@
 		F279D31924E94BA6002AC791 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		F27EF3D124FFDB3E00151B24 /* Contents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
 		F28D459424FBF7F900928B75 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F296EFA9250B4669005CACEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F296EFAA250B4669005CACEF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2AD9A0424FCB284001D630D /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		F2AD9A0524FCB284001D630D /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
 		F2C34AC924FE7C0F00841A61 /* NextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTableViewCell.swift; sourceTree = "<group>"; };
@@ -181,7 +183,8 @@
 				F23A235724DE5D77005258EB /* Controller */,
 				F2D62E8F24DD3C46007C7613 /* LaunchScreen.storyboard */,
 				F211A3E0250A811C005BE7F3 /* APIKey.plist */,
-				F23A0416250A677C000C7F65 /* .gitignore */,
+				F296EFA9250B4669005CACEF /* GoogleService-Info.plist */,
+				F296EFAA250B4669005CACEF /* Info.plist */,
 				F2F68FB7250607E800C04345 /* lottie.json */,
 				F2F68FB8250607E800C04345 /* lottie1.json */,
 			);
@@ -248,17 +251,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F296EFAB250B4669005CACEF /* GoogleService-Info.plist in Resources */,
 				F2F68FB9250607E800C04345 /* lottie.json in Resources */,
 				F2C34ACC24FE7C0F00841A61 /* NextTableViewCell.xib in Resources */,
 				F2F68FBA250607E800C04345 /* lottie1.json in Resources */,
 				F279D31B24E94BA6002AC791 /* CustomCell.xib in Resources */,
 				F211A3E1250A811C005BE7F3 /* APIKey.plist in Resources */,
+				F296EFAC250B4669005CACEF /* Info.plist in Resources */,
 				F2C4DA2F24FA41FD00FB10E6 /* TableViewCell.xib in Resources */,
 				F2D62E9124DD3C46007C7613 /* LaunchScreen.storyboard in Resources */,
 				F2D62E8E24DD3C46007C7613 /* Assets.xcassets in Resources */,
 				F2D62E8C24DD3C45007C7613 /* Main.storyboard in Resources */,
 				F2AD9A0724FCB284001D630D /* DetailTableViewCell.xib in Resources */,
-				F23A0417250A677C000C7F65 /* .gitignore in Resources */,
 				F26C37F024FF83BE00D82C94 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
